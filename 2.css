@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+    font-size: 25px;
+}
+.container{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    align-items: space-evenly;
+    height: 90vh;
+    width: 25vw;
+    border-radius: 10px;
+}
+h1,.button{
+    text-align: center;
+}
+button{
+    background-color: black;
+    color: white;
+    width: 23vw;
+    height: 50px;
+}
+input,select{
+    width: 23vw;
+    height: 25px;
+}
+@media screen and (max-width: 800px){
+    .container{
+        width: 80%;
+    }
+    input,select{
+        width: 70vw;
+    }
+}
